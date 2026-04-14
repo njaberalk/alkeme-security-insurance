@@ -14,8 +14,8 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80"
-          alt="Commercial semi-truck driving on a highway at sunset for trucking insurance"
+          src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1920&q=80"
+          alt="Security guard professional protecting a commercial building for security guard insurance"
           width={1920}
           height={1080}
           loading="eager"
@@ -23,7 +23,6 @@ export default function Hero() {
           style={{ opacity: 0.5, objectPosition: '50% 0%', filter: 'grayscale(100%)' }}
         />
         <div className="absolute inset-0 bg-brand" style={{ opacity: 0.45 }} />
-        {/* Grain texture overlay */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
@@ -50,9 +49,9 @@ export default function Hero() {
               transition: 'opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s',
             }}
           >
-            <span className="text-stone">Coverage Built for</span>
+            <span className="text-stone">Protection That</span>
             <br />
-            <span className="text-gold">the Road Ahead.</span>
+            <span className="text-gold">Protects You.</span>
           </h1>
 
           <p
@@ -67,7 +66,7 @@ export default function Hero() {
               transition: 'opacity 0.6s ease 0.3s, transform 0.6s ease 0.3s',
             }}
           >
-            We help trucking companies find the right insurance. Our team covers auto liability, cargo, physical damage, and more. We work with owner-operators and fleets in all 50 states.
+            We help security guard companies find the right insurance. Our team covers general liability, professional liability, firearms liability, assault and battery, and more. We work with armed and unarmed guard companies in all 50 states.
           </p>
 
           <p
@@ -82,7 +81,7 @@ export default function Hero() {
             }}
             className="mb-8"
           >
-            ALKEME is a licensed insurance broker. We offer trucking insurance such as auto liability, cargo, and physical damage. We serve owner-operators and fleets in every state.
+            ALKEME is a licensed insurance broker. We offer security guard insurance including general liability, professional liability, and workers&apos; compensation. We serve armed guards, unarmed security, executive protection, and patrol companies nationwide.
           </p>
 
           <div

@@ -1,547 +1,388 @@
 export const coverages = [
   {
-    slug: 'auto-liability',
-    title: 'Primary Auto Liability',
-    metaTitle: 'Trucking Auto Liability Insurance',
-    metaDescription: 'Primary auto liability insurance for trucking companies and owner-operators. Federally required coverage for bodily injury and property damage claims on the ...',
-    heroHeading: 'Primary Auto Liability Insurance',
-    heroSubheading:
-      'Federally mandated protection that covers bodily injury and property damage caused by your commercial vehicles.',
-    overview:
-      'Primary auto liability is the foundational coverage every trucking operation must carry. It responds when your driver is at fault in an accident, paying for injuries to other parties and damage to their property up to your policy limit. Federal regulations under FMCSA require minimum limits ranging from $750,000 to $5,000,000 depending on the commodities you haul, making this the single most important policy in any fleet insurance program.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Primary auto liability pays for bodily injury and property damage that your covered vehicles cause to third parties. This includes medical expenses, lost wages, pain and suffering, legal defense costs, and repair or replacement of damaged property. The policy responds regardless of which driver is behind the wheel, provided they are operating under your authority.\n\nCoverage extends to accidents on public roads, at shipper and receiver facilities, and in any location where your vehicle is legally permitted to operate. Defense costs are typically covered in addition to your liability limit, meaning your full policy amount remains available for settlements and judgments.\n\nIt is important to understand that primary auto liability does not cover damage to your own vehicle or cargo. Those exposures require separate physical damage and motor truck cargo policies. Auto liability strictly addresses your financial obligation to others when your operations cause harm.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'Every motor carrier operating under its own USDOT number and MC authority is required by federal law to maintain primary auto liability coverage. This applies to for-hire carriers, private carriers hauling their own goods, and owner-operators leased onto a carrier who need coverage under their own authority during periods of non-dispatch.\n\nThe FMCSA sets minimum financial responsibility requirements based on what you transport. General freight carriers must carry at least $750,000 in coverage, while haulers of hazardous materials face minimums of $1,000,000 or $5,000,000. Many shippers and brokers contractually require limits well above the federal floor, with $1,000,000 being standard for general commodities.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'A single serious trucking accident can generate claims that dwarf the federal minimum limits. Jury verdicts exceeding $10,000,000 in trucking cases have become increasingly common, a trend the industry calls nuclear verdicts. Without adequate auto liability limits, a catastrophic claim can bankrupt a motor carrier overnight.\n\nBeyond financial protection, maintaining proper auto liability coverage is a condition of your operating authority. A lapse in coverage triggers an automatic revocation process with the FMCSA, shutting down your ability to legally operate. Brokers and shippers verify your coverage status in real time through FMCSA databases, so even a brief gap can cost you freight contracts.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Bodily injury liability for third-party medical costs, rehabilitation, and lost income',
-          'Property damage liability for vehicles, structures, and infrastructure you damage',
-          'Legal defense costs typically paid in addition to your coverage limit',
-          'MCS-90 endorsement filed with the FMCSA to satisfy financial responsibility requirements',
-          'Hired auto coverage available for vehicles you rent or borrow for business use',
-          'Coverage for all scheduled power units and drivers listed on your policy',
-          'Automatic coverage for newly acquired vehicles within a specified reporting window',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is the minimum auto liability limit required for trucking companies?',
-        a: 'The FMCSA requires a minimum of $750,000 for general freight carriers. Carriers transporting hazardous materials must carry $1,000,000 or $5,000,000 depending on the specific commodity. Many shippers and brokers require $1,000,000 as a contractual minimum regardless of what you haul.',
-      },
-      {
-        q: 'Does primary auto liability cover my truck if it is damaged in an accident?',
-        a: 'No. Primary auto liability only covers damage and injuries you cause to other parties. To protect your own vehicles, you need a separate physical damage policy that includes collision and comprehensive coverage.',
-      },
-      {
-        q: 'What happens if my auto liability coverage lapses?',
-        a: 'The FMCSA is notified of any coverage lapse and will begin revocation proceedings against your operating authority. Your carrier status changes to "not authorized" in the FMCSA database, which brokers and shippers check before tendering loads. Even a single day without coverage can result in lost contracts and regulatory penalties.',
-      },
-      {
-        q: 'What is the MCS-90 endorsement?',
-        a: 'The MCS-90 is a federal endorsement attached to your auto liability policy that guarantees minimum financial responsibility to the public. It ensures that your insurer will pay valid claims even if a technical policy exclusion might otherwise apply. The MCS-90 is required for all for-hire interstate motor carriers.',
-      },
-    ],
-    relatedCoverages: ['physical-damage', 'umbrella-excess-liability', 'general-liability'],
-  },
-
-  {
-    slug: 'physical-damage',
-    title: 'Physical Damage',
-    metaTitle: 'Truck Physical Damage Insurance',
-    metaDescription: 'Physical damage insurance for commercial trucks and trailers. Collision and comprehensive coverage to protect your fleet investment against accidents, theft,...',
-    heroHeading: 'Physical Damage Insurance',
-    heroSubheading:
-      'Collision and comprehensive protection that safeguards the trucks, tractors, and trailers your business depends on.',
-    overview:
-      'Physical damage insurance covers the cost of repairing or replacing your own commercial vehicles when they are damaged in an accident, stolen, vandalized, or affected by weather events. Unlike auto liability, which protects other parties, physical damage protects your fleet investment. For owner-operators with financed equipment, lenders will require this coverage as a condition of the loan or lease.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Physical damage policies include two core components: collision and comprehensive. Collision coverage pays to repair or replace your vehicle after it strikes another object or overturns, regardless of fault. Comprehensive coverage handles non-collision events including theft, fire, vandalism, windstorm, hail, flood, and animal strikes.\n\nMost policies also offer coverage for permanently attached equipment such as refrigeration units, lift gates, and specialized bodies. You can typically add coverage for spare parts, portable electronics, and personal property kept in the cab. Towing and emergency roadside labor costs are frequently included or available as endorsements.\n\nCoverage is typically written on an actual cash value basis, meaning the insurer pays the market value of the vehicle at the time of loss minus your deductible. Stated amount and agreed value options are available for trucks with custom builds or equipment that might be undervalued by standard depreciation calculations.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'Any fleet owner or owner-operator with a significant financial stake in their equipment should carry physical damage coverage. If you are financing or leasing your truck, your lender will mandate collision and comprehensive coverage with specified deductibles and limits. Even if you own your equipment outright, replacing a $150,000 tractor out of pocket after a total loss would be devastating to most operations.\n\nPhysical damage is especially critical for newer equipment, specialized vehicles with custom upfits, and any truck that would be difficult to replace quickly. The decision to self-insure older, fully depreciated units is a calculated risk that depends on your cash reserves and the cost of downtime.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'Commercial trucks represent one of the largest capital investments in any trucking operation. A total loss without insurance coverage can put a single-truck owner-operator permanently out of business and strain even a large fleet\'s balance sheet. Beyond the replacement cost of the truck itself, extended downtime while sourcing a replacement means lost revenue, missed contract obligations, and driver retention challenges.\n\nPhysical damage coverage converts an unpredictable catastrophic expense into a manageable, budgeted cost. By selecting appropriate deductibles, you can balance your premium expense against your ability to absorb smaller losses, keeping your operation financially resilient against the unexpected.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Collision coverage for accidents involving other vehicles, objects, or rollovers',
-          'Comprehensive coverage for theft, fire, vandalism, weather, and animal strikes',
-          'Actual cash value, stated amount, or agreed value settlement options',
-          'Coverage for permanently installed equipment like reefer units and lift gates',
-          'Downtime or rental reimbursement while your truck is being repaired',
-          'Towing and roadside labor coverage for emergency recovery',
-          'Flexible deductible options to manage your premium costs',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is the difference between collision and comprehensive coverage?',
-        a: 'Collision covers damage to your vehicle when it hits another object or rolls over, regardless of fault. Comprehensive covers non-collision events like theft, fire, hail, vandalism, flooding, and animal strikes. Together they provide complete physical damage protection for your equipment.',
-      },
-      {
-        q: 'How are physical damage claims valued?',
-        a: 'Most claims are settled on an actual cash value basis, which is the market value of your vehicle at the time of loss minus your deductible. If you have a custom or specialty vehicle that may be undervalued by standard depreciation, you can choose a stated amount or agreed value policy to lock in a predetermined payout.',
-      },
-      {
-        q: 'Should I carry physical damage on older trucks?',
-        a: 'It depends on your financial situation. If you can afford to replace the truck out of pocket without disrupting your business, dropping physical damage on a low-value unit can reduce premiums. If a total loss would cause serious financial hardship or extended downtime, maintaining coverage is the safer choice.',
-      },
-      {
-        q: 'Does physical damage insurance cover my trailer?',
-        a: 'Yes, trailers you own can be scheduled on your physical damage policy. Trailers you pull under a trailer interchange agreement with another party require a separate trailer interchange policy, as your physical damage coverage typically excludes non-owned trailers.',
-      },
-    ],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'trailer-interchange'],
-  },
-
-  {
-    slug: 'motor-truck-cargo',
-    title: 'Motor Truck Cargo',
-    metaTitle: 'Motor Truck Cargo Insurance for Carriers',
-    metaDescription:
-      'Motor truck cargo insurance protects freight in transit against damage, theft, and loss. Essential coverage for for-hire trucking companies and owner-operators.',
-    heroHeading: 'Motor Truck Cargo Insurance',
-    heroSubheading:
-      'Protects the freight you haul against loss or damage from the moment it loads until final delivery.',
-    overview:
-      'Motor truck cargo insurance covers the value of goods you are transporting on behalf of shippers. As a for-hire carrier, you are legally liable for the freight in your custody under the Carmack Amendment, which establishes strict liability for loss and damage during transit. Cargo insurance transfers that financial risk to your insurer, covering claims for stolen, damaged, or destroyed shipments up to your policy limit.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Motor truck cargo insurance covers the shipper\'s goods while they are in your care, custody, and control during transit. Covered perils typically include collision, overturning, fire, theft, loading and unloading accidents, and weather-related damage. Most policies are written on a broad form or all-risk basis, meaning they cover all causes of loss except those specifically excluded.\n\nCoverage begins when freight is loaded onto your vehicle and continues until it is delivered to the designated consignee. Some policies extend coverage to temporary storage at terminals or warehouses during the normal course of transit. Refrigeration breakdown coverage, also called reefer breakdown, is available as an endorsement for temperature-sensitive loads.\n\nStandard exclusions typically include losses due to improper packaging by the shipper, inherent vice of the cargo, shipper fraud, acts of war, and nuclear hazards. Understanding your policy exclusions is essential because a denied cargo claim comes directly out of your pocket and can severely damage your relationship with shippers and brokers.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'All for-hire motor carriers need cargo insurance. While the FMCSA does not mandate specific cargo insurance limits for most carriers, the legal liability you assume under the Carmack Amendment means going without coverage is an enormous financial gamble. A single truckload of consumer electronics, pharmaceuticals, or industrial equipment can easily exceed $200,000 in value.\n\nBrokers and shippers universally require cargo coverage as a condition of doing business, with $100,000 being a common minimum requirement and many requiring $250,000 or more. Owner-operators leased to a motor carrier are typically covered under the carrier\'s cargo policy while under dispatch, but should verify this coverage and understand any gaps.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'Under the Carmack Amendment, you are liable for the full value of freight that is lost or damaged while in your possession, with very limited exceptions. Without cargo insurance, a single stolen load or a reefer failure on a high-value perishable shipment can wipe out months of operating profit.\n\nCargo claims also have a reputational dimension. Shippers and brokers track carrier claim histories, and repeated uninsured losses signal an unreliable operation. A strong cargo insurance program demonstrates professionalism, protects your balance sheet, and keeps you competitive when bidding for premium freight.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Broad form or all-risk coverage for most causes of freight loss and damage',
-          'Coverage from loading through final delivery at destination',
-          'Refrigeration breakdown endorsement for temperature-controlled loads',
-          'Debris removal coverage for clearing a spill after an accident',
-          'Earned freight charges reimbursement when a load is a total loss',
-          'Coverage limits from $100,000 to $500,000 or higher based on the value of freight you haul',
-          'Per-vehicle and per-occurrence limit options to match your exposure',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is the Carmack Amendment and how does it affect my liability?',
-        a: 'The Carmack Amendment is a federal law that establishes strict liability for motor carriers over freight in their possession. It means you are responsible for the full value of lost or damaged cargo unless you can prove the loss was caused by an act of God, a public enemy, the shipper\'s own actions, or an inherent defect in the goods. This strict standard makes cargo insurance essential.',
-      },
-      {
-        q: 'How much cargo insurance do I need?',
-        a: 'Your limit should match the maximum value of any single load you transport. Most general freight carriers carry limits between $100,000 and $250,000. If you haul high-value commodities like electronics, pharmaceuticals, or machinery, you may need $500,000 or more. Review your broker and shipper contracts for their specific requirements.',
-      },
-      {
-        q: 'Does cargo insurance cover refrigeration breakdown?',
-        a: 'Standard cargo policies typically exclude losses caused by mechanical breakdown of your refrigeration unit. However, a reefer breakdown endorsement can be added to your policy to cover spoilage and damage resulting from reefer malfunction. This endorsement is essential if you haul temperature-sensitive freight.',
-      },
-      {
-        q: 'Am I covered for theft of cargo left in an unattended truck?',
-        a: 'Coverage varies by policy. Many cargo policies exclude theft from unattended vehicles unless specific security measures were in place, such as locked trailers, sealed doors, or parking in a secured facility. Review your policy\'s theft provisions carefully and follow your insurer\'s requirements for securing loads during stops.',
-      },
-    ],
-    relatedCoverages: ['auto-liability', 'general-liability', 'trailer-interchange'],
-  },
-
-  {
     slug: 'general-liability',
     title: 'General Liability',
-    metaTitle: 'Trucking General Liability Insurance',
-    metaDescription:
-      'General liability insurance for trucking companies covering premises injuries, completed operations, and advertising claims beyond the scope of auto liability.',
-    heroHeading: 'General Liability Insurance',
-    heroSubheading:
-      'Covers injury and property damage claims arising from your business premises, operations, and completed work.',
-    overview:
-      'General liability insurance, also called commercial general liability or CGL, protects your trucking business against claims that fall outside your auto liability policy. It covers bodily injury and property damage occurring at your terminal, yard, or office, as well as claims arising from your completed operations after freight is delivered. General liability is a core component of a well-rounded commercial insurance program and is frequently required by landlords, customers, and contractual partners.',
+    metaTitle: 'General Liability Insurance for Security Companies',
+    metaDescription: 'General liability insurance for security guard companies. Covers third-party bodily injury, property damage from guard operations, and premises liability for security firms.',
+    heroHeading: 'General Liability Insurance for Security Companies',
+    heroSubheading: 'Essential protection against third-party bodily injury and property damage claims arising from your security operations.',
+    overview: 'General liability is the foundational coverage for every security guard company. It responds when your operations cause bodily injury or property damage to third parties, whether a guard accidentally damages client property during a patrol, a visitor trips over equipment at a guard station, or an incident at a secured premises leads to a claim against your firm. Most clients require proof of general liability before signing a security services contract.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          'General liability covers three main categories of risk. Premises liability responds when someone is injured on property you own, lease, or control, such as a visitor who slips on ice in your truck yard or a vendor who is struck by a forklift at your terminal. Operations liability covers injuries and damage arising from your business activities that are not vehicle-related, including loading dock operations and warehouse work.\n\nCompleted operations coverage, the second major component, protects you after a job is finished. If freight you delivered was improperly secured and falls off a shelf at the consignee\'s warehouse injuring a worker, completed operations coverage responds. This is particularly important for carriers that provide ancillary services like lumper work, installation, or white glove delivery.\n\nThe third component, personal and advertising injury, covers claims of libel, slander, copyright infringement, and false advertising. While less common in trucking, these exposures exist for any company that markets its services publicly.',
+        content: 'General liability for security companies covers third-party bodily injury and property damage arising from your operations, your premises, and your completed operations. If a security guard accidentally injures someone while directing foot traffic, damages a client\'s door lock during a routine patrol, or if a person is injured at your office or guard station, general liability responds.\n\nThe policy also covers personal and advertising injury, which includes claims of defamation, false arrest, or invasion of privacy. These exposures are particularly relevant for security firms, as guards may detain individuals suspected of trespassing or theft, and accusations of wrongful detention or profiling are common in the industry.\n\nDefense costs are typically included within your policy limits, meaning the insurer pays for attorneys, expert witnesses, and court costs when a covered claim is filed against your company. Given the volume of frivolous claims security companies face, this defense cost coverage alone can justify the premium.',
       },
       {
         heading: 'Who Needs It',
-        content:
-          'Every trucking company with a physical location, employees, or customer-facing operations needs general liability coverage. If you own or lease a terminal, yard, maintenance shop, or office space, your landlord will almost certainly require it. Shippers and third-party logistics providers frequently include general liability requirements in their carrier agreements.\n\nEven owner-operators who work from home benefit from general liability coverage. A mechanic visiting your home shop, a driver picking up paperwork, or a business meeting at your residence could all generate a premises liability claim. General liability fills the gap between what your auto policy covers and the full scope of your business exposure.',
+        content: 'Every security guard company needs general liability insurance, regardless of size or specialization. Whether you provide unarmed guards for retail stores, armed officers for high-risk facilities, mobile patrol services, or event security, general liability is a baseline requirement.\n\nMost commercial clients, property managers, and event venues require security contractors to carry a minimum of $1,000,000 per occurrence and $2,000,000 aggregate in general liability coverage before they will sign a service agreement. Government contracts and large corporate accounts may require higher limits.',
       },
       {
         heading: 'Why It Matters',
-        content:
-          'Auto liability policies are specifically limited to claims arising from the operation of covered vehicles. Any claim that occurs off the road or after delivery is excluded from your auto policy entirely. Without general liability, your business is unprotected against a significant category of risk that includes some of the most common small business claims, such as slip-and-fall injuries and property damage at your facilities.\n\nGeneral liability also provides contractual liability coverage, which is essential when you sign contracts that require you to indemnify and hold harmless other parties. Without this coverage, those contractual obligations are backed only by your business assets, putting everything you have built at risk.',
+        content: 'Security companies face a higher frequency of liability claims than many other service industries. Guards interact directly with the public in environments where tensions can run high, property is being protected, and confrontations are possible. A single slip-and-fall at a client site, an allegation of excessive force, or a claim that your guards failed to prevent an incident can generate a lawsuit that threatens your business.\n\nGeneral liability provides the financial backstop that keeps your company operating when claims arise. Without it, you would need to pay legal defense costs and any settlement or judgment out of pocket, which can quickly exhaust the reserves of even a profitable security firm.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Premises liability for injuries at your yard, terminal, or office',
-          'Operations liability for non-vehicle-related business activities',
-          'Completed operations coverage for claims after freight delivery',
-          'Personal and advertising injury coverage for libel, slander, and related claims',
-          'Contractual liability for hold-harmless and indemnification agreements',
-          'Medical payments coverage for minor injuries regardless of fault',
-          'Products liability for goods you manufacture, sell, or distribute',
+          'Bodily injury liability for third-party injuries related to guard operations',
+          'Property damage liability for damage to client premises, equipment, or vehicles',
+          'Personal injury coverage including false arrest, wrongful detention, and defamation claims',
+          'Premises liability for injuries at your office, guard stations, or dispatch centers',
+          'Products and completed operations coverage for post-service claims',
+          'Medical payments coverage for minor injuries without requiring a lawsuit',
+          'Contractual liability for hold-harmless agreements in security service contracts',
         ],
       },
     ],
     faqs: [
-      {
-        q: 'What is the difference between auto liability and general liability?',
-        a: 'Auto liability covers claims arising from the operation of your vehicles on the road. General liability covers everything else, including injuries at your business premises, non-vehicle-related operations, and claims arising after delivery is complete. Both policies are necessary for comprehensive protection.',
-      },
-      {
-        q: 'What limits should a trucking company carry for general liability?',
-        a: 'Most trucking companies carry a general liability policy with a $1,000,000 per-occurrence limit and a $2,000,000 general aggregate. Your specific needs depend on the size of your operation, your lease agreements, and the contractual requirements of your customers and brokers.',
-      },
-      {
-        q: 'Does general liability cover damage to customer property at my terminal?',
-        a: 'Yes. If customer property is damaged while at your terminal or yard due to your negligence, such as a forklift striking a pallet of goods, general liability covers the resulting claim. However, damage to goods while in transit is covered by your motor truck cargo policy, not general liability.',
-      },
+      { q: 'What is the minimum general liability limit for security companies?', a: 'Most clients require $1,000,000 per occurrence and $2,000,000 aggregate. Government contracts, healthcare facilities, and large corporate accounts may require $5,000,000 or higher, often achieved through an umbrella or excess policy layered on top of the primary general liability.' },
+      { q: 'Does general liability cover assault claims against my guards?', a: 'General liability typically includes personal injury coverage for claims like false arrest or wrongful detention. However, claims arising from intentional use of force or physical confrontations are often better addressed by a dedicated assault and battery policy. We recommend carrying both coverages to eliminate gaps.' },
+      { q: 'Is general liability the same as professional liability for security companies?', a: 'No. General liability covers physical injury and property damage, while professional liability covers errors in your security services, such as failure to detect a threat, negligent hiring, or inadequate training. Most security companies need both policies to be fully protected.' },
+      { q: 'Does general liability cover damage to a client\'s building during a patrol?', a: 'Yes. If a guard accidentally damages a client\'s property during the course of duty, such as breaking a window, damaging a lock, or scratching a vehicle while on patrol, general liability covers the resulting property damage claim.' },
     ],
-    relatedCoverages: ['auto-liability', 'umbrella-excess-liability', 'workers-compensation'],
+    relatedCoverages: ['professional-liability', 'assault-battery', 'umbrella-excess'],
   },
-
   {
-    slug: 'non-trucking-liability',
-    title: 'Non-Trucking Liability',
-    metaTitle: 'Non-Trucking Liability (Bobtail) Insurance',
-    metaDescription:
-      'Non-trucking liability insurance for owner-operators and leased drivers. Bobtail coverage for personal use of your truck when not under motor carrier dispatch.',
-    heroHeading: 'Non-Trucking Liability Insurance',
-    heroSubheading:
-      'Liability protection for owner-operators using their truck for personal purposes outside of carrier dispatch.',
-    overview:
-      'Non-trucking liability, often called bobtail insurance, provides liability coverage for owner-operators when they are using their truck for personal purposes and are not under dispatch from the motor carrier they lease to. The carrier\'s auto liability policy covers you while hauling loads, but when that dispatch ends and you drive to a restaurant, home, or personal errand, a coverage gap exists. Non-trucking liability fills that gap.',
+    slug: 'professional-liability',
+    title: 'Professional Liability',
+    metaTitle: 'Professional Liability Insurance for Security Guard Companies',
+    metaDescription: 'Professional liability (E&O) insurance for security firms. Covers errors in security services, failure to protect, negligent hiring, and inadequate training claims.',
+    heroHeading: 'Professional Liability Insurance for Security Companies',
+    heroSubheading: 'Protection against claims of negligent security services, failure to protect, and errors in your professional duties.',
+    overview: 'Professional liability insurance, also known as errors and omissions coverage, protects security companies against claims that their services were inadequate, negligent, or failed to meet contractual obligations. When a client alleges that your guards failed to prevent a theft, missed a critical alarm, or that your company hired an unqualified officer, professional liability responds with legal defense and pays covered damages.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          'Non-trucking liability covers your legal liability for bodily injury and property damage caused by your truck during personal, non-business use. This includes driving home after delivering a load, running personal errands, deadheading to your residence, or any other use that is not under the direction and control of the motor carrier you are leased to.\n\nThe policy functions exactly like auto liability in these situations, paying for injuries and damage you cause to third parties. It covers legal defense costs, settlements, and judgments up to your policy limit. Most non-trucking policies are written with a $1,000,000 combined single limit.\n\nIt is essential to understand that non-trucking liability does not cover you while engaged in any business use of the vehicle. If you are dispatched, hauling a load, deadheading to a pickup under dispatch, or performing any activity for the carrier\'s benefit, the carrier\'s primary auto liability policy is the applicable coverage.',
+        content: 'Professional liability for security companies covers claims arising from errors, omissions, or negligent acts in the performance of your security services. This includes allegations that your guards failed to detect or respond to a threat, that your monitoring services missed a critical alarm, or that your security assessments were flawed.\n\nNegligent hiring and supervision claims are a significant exposure for security firms. If a guard with an undisclosed criminal history or inadequate training causes harm, your company can be held liable for the decision to employ that individual.\n\nThe policy also responds to breach of contract claims related to the quality of your services. If a client alleges that your guards did not perform the duties specified in the service agreement, professional liability provides coverage.',
       },
       {
         heading: 'Who Needs It',
-        content:
-          'Non-trucking liability is designed specifically for owner-operators who lease their truck and their services to a motor carrier under a lease agreement. Under this arrangement, the carrier\'s insurance covers the truck while it is under dispatch, but that coverage terminates the moment the dispatch ends and you begin personal use of the vehicle.\n\nIf you own your truck and drive it for any non-business purpose, whether commuting home, visiting family, or running errands, you need non-trucking liability to ensure you have continuous liability coverage. Operating a commercial vehicle without liability insurance is illegal in every state and exposes you to personal financial ruin in the event of an at-fault accident.',
+        content: 'Any company that provides security guard services, executive protection, alarm monitoring, security consulting, or investigative services should carry professional liability insurance. The risk of a negligence claim exists in every security engagement, regardless of how well-trained your officers are.\n\nClients that suffer losses on your watch will look to your company for compensation. A retail store that experiences a shoplifting spree, a warehouse that suffers a break-in, or an event venue where an attendee is assaulted will all question whether your security services met the standard of care.',
       },
       {
         heading: 'Why It Matters',
-        content:
-          'The gap between carrier dispatch coverage and personal use is one of the most misunderstood exposures in trucking. Many owner-operators assume their carrier\'s policy covers them at all times, but that is not the case. The moment you complete a delivery and begin driving for personal reasons, you may be uninsured unless you carry non-trucking liability.\n\nAn at-fault accident while uninsured can result in a personal judgment against you for hundreds of thousands of dollars. It can also lead to license suspension, vehicle impoundment, and the loss of your ability to earn a living. Non-trucking liability provides affordable peace of mind during the hours and miles between dispatches.',
+        content: 'Negligent security lawsuits are among the most costly claims in the security industry. When a crime occurs at a property your company is contracted to protect, the victim may sue your firm alleging that better security measures could have prevented the incident. Jury verdicts in negligent security cases routinely exceed $1,000,000, and cases involving serious injury or death can produce multi-million-dollar awards.\n\nProfessional liability provides the legal defense and financial protection your company needs to survive these claims. Without it, a single negligent security lawsuit could consume your operating capital and force you to close.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Bodily injury and property damage liability during personal use of your truck',
-          'Coverage when not under dispatch or operating under carrier authority',
-          'Legal defense costs for covered claims',
-          'Typically written with a $1,000,000 combined single limit',
-          'Available as a standalone policy for leased owner-operators',
-          'Covers deadheading home after final delivery when dispatch is complete',
-          'Affordable premiums compared to full primary auto liability',
+          'Defense costs for negligent security lawsuits and failure-to-protect claims',
+          'Coverage for negligent hiring, training, and supervision allegations',
+          'Breach of contract claims related to security service quality',
+          'Failure to respond to alarms or security breaches',
+          'Errors in security risk assessments and consulting recommendations',
+          'Coverage for claims arising from inadequate background checks on guards',
+          'Retroactive coverage for incidents reported during the policy period',
         ],
       },
     ],
     faqs: [
-      {
-        q: 'What is the difference between non-trucking liability and bobtail insurance?',
-        a: 'The terms are often used interchangeably, but there is a technical distinction. Non-trucking liability covers personal use of your truck when not under dispatch. True bobtail insurance covers driving without a trailer for any purpose, including some business use. Most policies sold as bobtail are actually non-trucking liability policies, so it is important to read the policy language carefully.',
-      },
-      {
-        q: 'Does non-trucking liability cover me while I am deadheading to pick up a load?',
-        a: 'No. If you are deadheading to a shipper under dispatch from your carrier, you are performing business activities and the carrier\'s auto liability policy should be providing coverage. Non-trucking liability only applies when you are not under dispatch and are using the truck for personal reasons.',
-      },
-      {
-        q: 'Do I need non-trucking liability if I never drive my truck for personal use?',
-        a: 'If your truck goes directly from one dispatch to the next without any personal use in between, you may have minimal exposure. However, any trip that is not under carrier dispatch, including driving home, stopping for meals, or running errands, falls outside the carrier\'s policy. Most owner-operators have at least some personal use exposure.',
-      },
-      {
-        q: 'Can I carry non-trucking liability and primary auto liability at the same time?',
-        a: 'Yes, but it is rarely necessary. If you operate under your own authority, you need primary auto liability. If you lease to a carrier, you need non-trucking liability. If you do both at different times, you may carry both policies, but they cover mutually exclusive situations.',
-      },
+      { q: 'What is negligent security and how does professional liability help?', a: 'Negligent security occurs when a security company fails to provide adequate protection, and that failure contributes to a crime or injury on the premises. Professional liability covers the legal defense and damages when a client or third party sues your company for this type of claim.' },
+      { q: 'Does professional liability cover claims from negligent hiring?', a: 'Yes. If your company hires a guard who later causes harm and the claim alleges that your background check or screening process was inadequate, professional liability responds.' },
+      { q: 'Is professional liability required by clients?', a: 'Many commercial clients, property managers, and government agencies require security contractors to carry professional liability insurance as a condition of their service agreement. Typical required limits range from $1,000,000 to $5,000,000.' },
     ],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'occupational-accident'],
+    relatedCoverages: ['general-liability', 'employment-practices', 'umbrella-excess'],
   },
-
-  {
-    slug: 'trailer-interchange',
-    title: 'Trailer Interchange',
-    metaTitle: 'Trailer Interchange Insurance for Trucking',
-    metaDescription:
-      'Trailer interchange insurance covers physical damage to non-owned trailers in your possession under a trailer interchange agreement. Protect borrowed equipment.',
-    heroHeading: 'Trailer Interchange Insurance',
-    heroSubheading:
-      'Physical damage coverage for trailers you pull under interchange agreements with other carriers, brokers, or shippers.',
-    overview:
-      'Trailer interchange insurance covers physical damage to trailers that you do not own but are pulling under a written trailer interchange agreement. When you sign an interchange agreement, you assume financial responsibility for damage to the other party\'s trailer while it is in your possession. Your own physical damage policy typically excludes non-owned trailers, creating a significant coverage gap that trailer interchange insurance fills.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Trailer interchange insurance provides physical damage coverage, including collision and comprehensive, for trailers in your possession under a trailer interchange agreement. Covered perils include collision, fire, theft, vandalism, overturning, and weather events. The policy pays to repair or replace the trailer up to its actual cash value or an agreed amount, minus your deductible.\n\nCoverage applies from the moment you accept custody of the trailer under the interchange agreement until you return it to the owner or their designated agent. This includes time spent in transit, at loading and unloading facilities, and while parked at your yard or a truck stop during the normal course of transportation.\n\nTrailer interchange policies can be written to cover specific interchange partners or on a blanket basis that covers any trailer you pull under a qualifying interchange agreement. Blanket coverage is more flexible and eliminates the need to notify your insurer each time you enter a new interchange arrangement.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'Any carrier that regularly pulls trailers owned by other parties under interchange agreements needs this coverage. This is common in intermodal operations, port drayage, and less-than-truckload networks where trailers are frequently exchanged between carriers at terminals and rail yards.\n\nThe party requiring the interchange agreement, whether a shipper, broker, or another carrier, will almost always require you to carry trailer interchange insurance as a condition of the agreement. Without it, you are personally liable for the full value of a trailer that can cost $30,000 to $80,000 or more to replace.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'When you sign a trailer interchange agreement, you take on full financial responsibility for someone else\'s property. Your standard physical damage policy covers only vehicles you own or lease, so a collision or theft involving an interchanged trailer could leave you writing a check for $50,000 or more out of your operating funds.\n\nTrailer interchange insurance is particularly critical in intermodal and drayage operations where trailer damage claims are frequent due to the high volume of trailer handoffs and the challenging operating environments at ports and rail yards. A single stolen container chassis or a fire that destroys a loaded trailer can generate a claim that exceeds many small carriers\' annual profit.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Collision and comprehensive coverage for non-owned trailers under interchange agreements',
-          'Blanket or scheduled trailer coverage options',
-          'Coverage from acceptance to return of the trailer',
-          'Protection at current replacement cost or actual cash value',
-          'Covers trailers at rest, in transit, and at shipper or receiver facilities',
-          'Available deductible options to manage premium expense',
-          'Satisfies contractual insurance requirements in interchange agreements',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is a trailer interchange agreement?',
-        a: 'A trailer interchange agreement is a written contract where one party transfers physical possession of a trailer to another party for the purpose of transporting a load. The party receiving the trailer assumes responsibility for loss or damage while the trailer is in their custody. These agreements are standard in intermodal, drayage, and LTL operations.',
-      },
-      {
-        q: 'Does my physical damage policy cover trailers I pull under interchange?',
-        a: 'In most cases, no. Standard physical damage policies cover vehicles you own or lease under a long-term agreement. Trailers in your temporary possession under an interchange agreement are typically excluded, which is why dedicated trailer interchange insurance exists.',
-      },
-      {
-        q: 'What is the difference between blanket and scheduled trailer interchange coverage?',
-        a: 'Scheduled coverage lists specific interchange partners or trailers on your policy. Blanket coverage automatically applies to any qualifying trailer you pull under an interchange agreement without needing to notify your insurer each time. Blanket coverage is more flexible and recommended for carriers with frequent interchange activity.',
-      },
-    ],
-    relatedCoverages: ['physical-damage', 'motor-truck-cargo', 'auto-liability'],
-  },
-
   {
     slug: 'workers-compensation',
-    title: "Workers' Compensation",
-    metaTitle: "Trucking Workers' Compensation Insurance",
-    metaDescription: "Workers' compensation insurance for trucking companies covering medical bills, lost wages, and disability benefits for injured employees.",
-    heroHeading: "Workers' Compensation Insurance",
-    heroSubheading:
-      'State-required coverage providing medical benefits and wage replacement to employees injured on the job.',
-    overview:
-      "Workers' compensation insurance is required in nearly every state for businesses with employees. It covers medical expenses, lost wages, rehabilitation costs, and death benefits for employees who are injured or become ill as a result of their work. For trucking companies, this includes injuries sustained while driving, loading and unloading freight, performing vehicle maintenance, and working at terminals or offices. Workers' comp is both a legal obligation and a critical tool for protecting your workforce and your business.",
+    title: 'Workers\' Compensation',
+    metaTitle: 'Workers Compensation Insurance for Security Guard Companies',
+    metaDescription: 'Workers compensation insurance for security companies. Covers guard injuries, assault-related injuries, hazardous conditions, and occupational health claims.',
+    heroHeading: 'Workers\' Compensation for Security Guard Companies',
+    heroSubheading: 'Mandatory coverage for guard injuries on the job, including assaults, slips, and hazardous working conditions.',
+    overview: 'Workers\' compensation insurance is required in nearly every state for security companies with employees. It covers medical expenses, lost wages, and rehabilitation costs when a guard is injured on the job. Given the physical nature of security work, the potential for confrontations, and the wide variety of environments in which guards operate, workers\' compensation claims are common in the security industry.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          "Workers' compensation provides four main categories of benefits to injured employees. Medical benefits cover all reasonable and necessary treatment related to a work injury, including emergency care, surgery, hospitalization, prescription medication, physical therapy, and ongoing medical management. There is no deductible or copay for the employee.\n\nDisability benefits replace a portion of the employee's lost wages during recovery. These are categorized as temporary total disability, temporary partial disability, permanent total disability, and permanent partial disability, depending on the severity and duration of the impairment. The replacement rate and maximum benefit amounts are set by each state's workers' compensation statute.\n\nRehabilitation benefits cover vocational retraining and job placement services for employees who cannot return to their previous position. Death benefits provide income replacement and funeral expenses to the dependents of an employee killed on the job. Employers' liability coverage, included in most workers' comp policies, protects the business against lawsuits from injured employees in limited circumstances where workers' comp immunity does not apply.",
+        content: 'Workers\' compensation for security companies covers all work-related injuries and occupational illnesses that guards sustain while performing their duties. This includes slip-and-fall injuries during patrols, injuries from physical confrontations or assaults, repetitive stress injuries from standing for extended shifts, and exposure-related illness from working in extreme temperatures.\n\nThe coverage pays for medical treatment, hospitalization, surgery, prescription medications, and physical rehabilitation. It also provides wage replacement benefits while the guard is unable to work.\n\nIf a guard is killed in the line of duty, workers\' compensation provides death benefits to the employee\'s dependents.',
       },
       {
-        heading: 'Who Needs It',
-        content:
-          "Nearly every trucking company with W-2 employees is legally required to carry workers' compensation insurance. Requirements vary by state, but most states mandate coverage beginning with the first employee. Texas is the only state where private employers can opt out, though doing so exposes the company to significant tort liability.\n\nTrucking operations face unique challenges with workers' comp because drivers travel across multiple states. The policy must comply with the laws of every state where your employees work, which typically means carrying coverage in your home state and filing multi-state endorsements. Companies that hire independent contractors rather than employees may not need workers' comp for those individuals, but misclassification of employees as contractors is a major enforcement focus and can result in severe penalties.",
+        heading: 'Why Security Companies Face Higher Risk',
+        content: 'Security guards face a significantly higher rate of workplace injury than many other occupations. Guards working at bars, nightclubs, concerts, and other venues with alcohol are frequently involved in physical altercations. Guards at construction sites, industrial facilities, and parking garages face trip hazards, falls, and exposure to moving vehicles.\n\nArmed guards face additional risks related to weapons handling, and guards providing executive protection or working in high-crime areas may be targeted by criminals.',
       },
       {
-        heading: 'Why It Matters',
-        content:
-          "Trucking consistently ranks among the most dangerous occupations in the United States. Drivers face risks from traffic accidents, lifting injuries, slips and falls at loading docks, and repetitive stress injuries from long hours behind the wheel. A serious injury can generate medical bills exceeding $100,000 and years of wage replacement payments.\n\nBeyond covering employee injuries, workers' compensation provides employer tort immunity. This means employees who receive workers' comp benefits generally cannot sue you for additional damages related to the workplace injury. Without this coverage, a single employee injury lawsuit could result in a judgment that threatens your business's survival. Proper workers' comp coverage protects your employees, satisfies your legal obligations, and shields your business from potentially ruinous litigation.",
+        heading: 'State Requirements',
+        content: 'Workers\' compensation requirements vary by state, but nearly all states require security companies with employees to carry this coverage. Texas and a small number of other states allow employers to opt out.\n\nSome states have monopolistic workers\' compensation funds. Ohio, North Dakota, Washington, and Wyoming operate monopolistic funds. All other states allow private market coverage.\n\nSecurity companies that use independent contractors should be aware that misclassifying employees as contractors to avoid workers\' compensation obligations can result in severe penalties.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Full medical expense coverage for work-related injuries and illnesses',
-          'Wage replacement benefits during temporary or permanent disability',
-          'Vocational rehabilitation for employees unable to return to their prior role',
-          'Death benefits and funeral expense coverage for fatal work injuries',
-          "Employers' liability protection against employee lawsuits",
-          'Multi-state coverage for drivers operating across state lines',
-          'Managed care programs to control costs and improve outcomes',
+          'Medical expenses for all work-related injuries including assaults and confrontations',
+          'Wage replacement benefits during recovery periods',
+          'Permanent disability benefits for guards who cannot return to full duty',
+          'Vocational rehabilitation for guards transitioning to different roles after injury',
+          'Death benefits and burial expenses for fatal on-duty incidents',
+          'Employer\'s liability coverage for lawsuits alleging negligent working conditions',
+          'Coverage for injuries during vehicle patrols, foot patrols, and static post assignments',
         ],
       },
     ],
     faqs: [
+      { q: 'Does workers\' compensation cover guards who are assaulted on the job?', a: 'Yes. Assault-related injuries are covered under workers\' compensation when they occur in the course of employment. This is one of the most common claims for security companies.' },
+      { q: 'How are workers\' compensation premiums calculated for security companies?', a: 'Premiums are based on your payroll, the classification codes assigned to your employees, and your experience modification factor. Security guard classification codes carry higher base rates than many other industries.' },
+      { q: 'Do I need workers\' compensation for 1099 security contractors?', a: 'Requirements vary by state, but many states require that independent contractors in the security industry be covered. Misclassifying employees as independent contractors can result in significant fines and penalties.' },
+    ],
+    relatedCoverages: ['general-liability', 'employment-practices', 'assault-battery'],
+  },
+  {
+    slug: 'commercial-auto',
+    title: 'Commercial Auto',
+    metaTitle: 'Commercial Auto Insurance for Security Companies',
+    metaDescription: 'Commercial auto insurance for security guard companies. Covers patrol vehicles, escort services, mobile security units, and fleet operations.',
+    heroHeading: 'Commercial Auto Insurance for Security Companies',
+    heroSubheading: 'Coverage for patrol vehicles, mobile security units, and fleet operations across your service area.',
+    overview: 'Security companies that operate patrol vehicles, escort cars, or any vehicles used in the course of business need commercial auto insurance. Whether your guards drive marked patrol units through residential communities, unmarked vehicles for executive protection, or personal vehicles to reach client sites, commercial auto liability protects your company when an accident occurs.',
+    sections: [
       {
-        q: "How are workers' compensation premiums calculated for trucking companies?",
-        a: "Premiums are based on your total payroll, the classification codes assigned to your employees' job duties, and your experience modification rate, which reflects your claims history relative to similar businesses. Long-haul drivers, local drivers, warehouse workers, and office staff each have different classification codes with different base rates.",
+        heading: 'What It Covers',
+        content: 'Commercial auto insurance covers liability for bodily injury and property damage caused by vehicles used in your operations. This includes owned patrol vehicles, leased fleet units, hired vehicles, and non-owned vehicles such as personal cars that guards drive for business purposes.\n\nComprehensive and collision coverage protects your own vehicles against theft, vandalism, weather damage, and accident-related repairs.',
       },
       {
-        q: 'What is an experience modification rate?',
-        a: 'The experience modification rate, or e-mod, is a multiplier applied to your premium that reflects your company\'s claims history compared to the industry average. An e-mod of 1.0 is average. A rate below 1.0 means fewer claims than average and results in lower premiums. A rate above 1.0 means more claims than average and increases your costs.',
+        heading: 'Special Considerations for Security Fleets',
+        content: 'Security patrol vehicles operate under conditions that differ significantly from typical commercial auto use. Guards may drive thousands of miles per month on patrol routes, often at night, in residential neighborhoods with limited lighting, or in industrial areas with challenging road conditions.\n\nVehicles used for executive protection may need to operate in motorcade formations or navigate crowded urban environments at speed. Hired and non-owned auto coverage is critical for companies whose guards use personal vehicles to travel between client sites.',
       },
       {
-        q: "Do independent contractor drivers need to be covered under my workers' compensation policy?",
-        a: "Legitimate independent contractors are generally not covered under your workers' comp policy. However, if a driver classified as an independent contractor is later determined to be an employee by a state agency or court, you will be liable for unpaid workers' comp premiums and penalties. Proper classification and documentation are critical.",
-      },
-      {
-        q: "Does workers' compensation cover injuries that happen in another state?",
-        a: "Yes, but the coverage must be properly structured. Your policy should include an all-states endorsement or list every state where your drivers operate. Benefits are typically governed by the law of the state where the injury occurred or the state of hire, depending on the circumstances. Work with your agent to ensure your policy covers every state in your operating territory.",
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Liability coverage for patrol vehicles, escort cars, and mobile security units',
+          'Comprehensive and collision for owned fleet vehicles',
+          'Hired and non-owned auto liability for personal vehicles used on business',
+          'Uninsured and underinsured motorist coverage',
+          'Medical payments coverage for driver and passenger injuries',
+          'Coverage for equipment permanently installed in patrol vehicles',
+          'Fleet discounts for companies operating multiple patrol units',
+        ],
       },
     ],
-    relatedCoverages: ['general-liability', 'occupational-accident', 'umbrella-excess-liability'],
+    faqs: [
+      { q: 'Do I need commercial auto insurance if my guards use their own cars?', a: 'Yes. If guards drive personal vehicles for any business purpose, you need hired and non-owned auto coverage. If a guard causes an accident while on company business in their personal car, your company can be held liable.' },
+      { q: 'Does commercial auto cover patrol vehicle equipment?', a: 'Standard policies may cover permanently installed equipment. High-value aftermarket equipment and specialized security technology may require scheduled endorsements.' },
+      { q: 'How are premiums calculated for security patrol vehicles?', a: 'Premiums are based on the number of vehicles, vehicle types, driver records, annual mileage, and geographic area. Night driving and high-mileage patrol routes factor into rates.' },
+    ],
+    relatedCoverages: ['general-liability', 'umbrella-excess', 'commercial-property'],
   },
-
   {
-    slug: 'umbrella-excess-liability',
+    slug: 'commercial-property',
+    title: 'Commercial Property',
+    metaTitle: 'Commercial Property Insurance for Security Companies',
+    metaDescription: 'Commercial property insurance for security firms. Covers office space, monitoring equipment, guard stations, uniforms, and surveillance technology.',
+    heroHeading: 'Commercial Property Insurance for Security Companies',
+    heroSubheading: 'Protection for your offices, monitoring centers, guard stations, and the equipment that keeps your operation running.',
+    overview: 'Commercial property insurance protects the physical assets that security companies depend on to operate. This includes office space, dispatch and monitoring centers, guard booths, surveillance equipment, communication systems, computers, uniforms, and any other tangible property your company owns or leases.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content: 'Commercial property insurance covers damage to or loss of your business property from covered perils including fire, theft, vandalism, windstorm, hail, lightning, and water damage. For security companies, covered property includes offices, monitoring centers, guard stations, computers, surveillance equipment, uniforms, and field gear.\n\nBusiness income and extra expense coverage pays for lost revenue and additional operating costs when covered property damage forces you to suspend operations.',
+      },
+      {
+        heading: 'Why Security Companies Need Property Coverage',
+        content: 'Many security companies invest heavily in technology infrastructure critical to service delivery. Alarm monitoring centers contain servers, display systems, and communication equipment that can cost hundreds of thousands of dollars to replace.\n\nGuard stations at client sites represent a distributed property exposure. Even small security companies carry property exposure through computers, uniform inventories, and office equipment.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Building coverage for owned office space, monitoring centers, and storage facilities',
+          'Business personal property for equipment, computers, furniture, and inventory',
+          'Surveillance and monitoring equipment coverage',
+          'Guard station and booth structures at client locations',
+          'Business income coverage for lost revenue during property repairs',
+          'Extra expense coverage for temporary relocation costs',
+          'Equipment breakdown coverage for servers and infrastructure',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Does property insurance cover equipment at client sites?', a: 'Yes. Business personal property coverage typically extends to your equipment regardless of location, including guard stations and communication equipment at client sites.' },
+      { q: 'Is alarm monitoring center equipment covered?', a: 'Yes. Monitoring center equipment including servers, display systems, and communication hardware are covered as business personal property.' },
+      { q: 'What if my office is damaged and I cannot dispatch guards?', a: 'Business income and extra expense coverage pays for lost revenue while your office is being repaired and covers the costs of operating from a temporary location.' },
+    ],
+    relatedCoverages: ['cyber-liability', 'general-liability', 'commercial-auto'],
+  },
+  {
+    slug: 'cyber-liability',
+    title: 'Cyber Liability',
+    metaTitle: 'Cyber Liability Insurance for Security Companies',
+    metaDescription: 'Cyber liability insurance for security guard companies. Covers surveillance data breaches, access control system compromises, and client data protection.',
+    heroHeading: 'Cyber Liability Insurance for Security Companies',
+    heroSubheading: 'Protection against data breaches involving surveillance footage, access control systems, and sensitive client information.',
+    overview: 'Security companies handle sensitive data that makes them attractive targets for cyberattacks. Surveillance footage, access control credentials, employee personal information, client facility layouts, and alarm system codes all represent data that could cause significant harm if compromised.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content: 'Cyber liability insurance covers first-party and third-party costs associated with data breaches and cyberattacks. First-party coverage pays for forensic investigation, notification of affected individuals, credit monitoring, and the cost of restoring data and systems.\n\nThird-party coverage pays for lawsuits and regulatory actions arising from a breach. Business interruption coverage pays for lost income when a cyberattack forces you to shut down operations.',
+      },
+      {
+        heading: 'Why Security Companies Are High-Value Targets',
+        content: 'Security companies possess uniquely valuable data. Surveillance footage can be used for blackmail or espionage. Access control credentials provide physical entry to secured facilities. Client facility layouts reveal security vulnerabilities.\n\nThe increasing use of cloud-based monitoring platforms, IP cameras, and electronic access control systems expands the attack surface for security companies.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Data breach response costs including forensics, notification, and credit monitoring',
+          'Third-party liability for lawsuits from compromised surveillance or access data',
+          'Regulatory defense and fines from data protection authorities',
+          'Ransomware and cyber extortion coverage',
+          'Business interruption from cyberattacks on monitoring or dispatch systems',
+          'Media liability for leaked surveillance footage',
+          'Social engineering fraud coverage',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Does cyber liability cover leaked surveillance footage?', a: 'Yes. If surveillance footage is accessed without authorization, leaked, or stolen, cyber liability covers the response costs and any third-party lawsuits.' },
+      { q: 'What happens if our monitoring system is hacked?', a: 'Cyber liability covers investigation, system restoration, client notification, and defense against lawsuits. Business interruption coverage pays for lost revenue.' },
+      { q: 'Are ransomware payments covered?', a: 'Most policies include ransomware coverage. Your policy may require working with the insurer\'s incident response team before any payment is made.' },
+    ],
+    relatedCoverages: ['commercial-property', 'professional-liability', 'general-liability'],
+  },
+  {
+    slug: 'umbrella-excess',
     title: 'Umbrella / Excess Liability',
-    metaTitle: 'Trucking Umbrella & Excess Liability Insurance',
-    metaDescription: 'Umbrella and excess liability insurance for trucking fleets. Additional liability limits above your auto, general, and employers liability to protect against...',
-    heroHeading: 'Umbrella / Excess Liability Insurance',
-    heroSubheading:
-      'Additional liability limits that sit above your primary policies to protect against catastrophic and high-severity claims.',
-    overview:
-      'Umbrella and excess liability insurance provides additional limits of liability above your underlying auto liability, general liability, and employers liability policies. In an era of escalating jury verdicts against trucking companies, primary policy limits of $1,000,000 are often insufficient to fully resolve a serious injury or wrongful death claim. An umbrella or excess policy adds critical capacity, ensuring your business can survive a catastrophic judgment without depleting its assets.',
+    metaTitle: 'Umbrella Insurance for Security Guard Companies',
+    metaDescription: 'Umbrella and excess liability insurance for security companies. Additional limits above your primary policies for catastrophic claims from security operations.',
+    heroHeading: 'Umbrella & Excess Liability for Security Companies',
+    heroSubheading: 'Additional liability limits that protect your security company when primary policy limits are exhausted by a major claim.',
+    overview: 'Umbrella and excess liability insurance provides additional limits above your primary general liability, professional liability, commercial auto, and employers\' liability policies. For security companies, where a single catastrophic incident can generate claims far exceeding primary policy limits, umbrella coverage is a critical safeguard.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          'An umbrella or excess liability policy increases your total available liability limits by stacking on top of your underlying primary policies. If your primary auto liability policy has a $1,000,000 limit and you carry a $4,000,000 umbrella, your total available limit for a covered auto liability claim is $5,000,000. The umbrella responds only after your primary policy limit is exhausted.\n\nMost trucking umbrella policies provide excess coverage over three underlying policies: commercial auto liability, commercial general liability, and employers liability. Some umbrella policies also provide broader coverage than the underlying policies, picking up certain claims that the primary policies exclude, though this varies significantly by insurer and policy form.\n\nExcess liability policies follow the exact terms and conditions of the underlying policy, providing only additional limits without expanding coverage. True umbrella policies may provide broader coverage and include a self-insured retention for claims that fall within the umbrella\'s scope but are not covered by any underlying policy. Understanding whether your policy is a true umbrella or a follow-form excess is important for evaluating your protection.',
+        content: 'Umbrella insurance sits above your underlying liability policies and provides additional limits when a claim exhausts the primary coverage. The umbrella typically extends over general liability, professional liability, commercial auto, and employers\' liability.\n\nSome umbrella policies also provide broader coverage than the underlying policies, filling gaps that may exist in the primary layer.',
       },
       {
-        heading: 'Who Needs It',
-        content:
-          'Every trucking company should seriously evaluate the need for umbrella or excess liability coverage. The median verdict in trucking accident cases has risen dramatically, with verdicts exceeding $10,000,000 becoming routine in cases involving fatalities or catastrophic injuries. A primary auto liability limit of $1,000,000, while meeting federal minimums, provides limited protection against today\'s legal environment.\n\nCarriers hauling hazardous materials, operating in high-traffic urban corridors, or transporting passengers are at elevated risk and should carry higher limits. Shippers and brokers are increasingly requiring $5,000,000 or more in total auto liability limits, making umbrella coverage a business necessity for maintaining access to premium freight.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'The trucking industry has experienced a surge in what are known as nuclear verdicts, jury awards that far exceed what would have been considered reasonable a decade ago. Plaintiff attorneys now routinely use reptile theory and other advanced trial strategies to drive verdicts into eight and nine figures. A single catastrophic accident without adequate liability limits can force a carrier into bankruptcy.\n\nUmbrella coverage is also one of the most cost-effective ways to increase your protection. Because the umbrella only responds after primary limits are exhausted, the premium for millions of dollars in additional coverage is substantially less than the cost of an equivalent primary policy. For most carriers, adding an umbrella policy is the single most impactful step they can take to improve their financial resilience.',
+        heading: 'Why Security Companies Need Higher Limits',
+        content: 'A wrongful death claim from a negligent security allegation can produce a verdict of $5,000,000 or more. An armed guard incident resulting in serious injury can generate even larger awards.\n\nMany large contracts require security vendors to carry $5,000,000 or $10,000,000 in total liability limits. Without an umbrella policy, meeting these requirements is impossible.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Additional liability limits above auto, general, and employers liability policies',
-          'Coverage limits typically available from $1,000,000 to $10,000,000 or more',
-          'Excess coverage over multiple underlying liability policies',
-          'True umbrella forms may provide broader coverage than underlying policies',
-          'Defense costs coverage in addition to the policy limit on many forms',
-          'Self-insured retention for claims within umbrella scope but not covered by underlying policies',
-          'Cost-effective way to achieve high total liability limits',
+          'Additional limits above general liability, professional liability, commercial auto, and employers\' liability',
+          'Drop-down coverage for claims covered by the umbrella but not underlying policies',
+          'Defense costs for claims that reach the umbrella layer',
+          'Coverage for catastrophic negligent security claims and wrongful death suits',
+          'Protection against nuclear verdicts in use-of-force cases',
+          'Capacity to meet high-limit contract requirements for large clients',
         ],
       },
     ],
     faqs: [
-      {
-        q: 'What is the difference between an umbrella policy and an excess liability policy?',
-        a: 'An excess liability policy follows the exact same terms and conditions as your underlying policy and simply adds more limit. A true umbrella policy may provide broader coverage than the underlying policies and can respond to certain claims that the primary policies exclude, subject to a self-insured retention. In practice, many policies marketed as umbrellas are actually follow-form excess policies.',
-      },
-      {
-        q: 'How much umbrella coverage does a trucking company need?',
-        a: 'The appropriate limit depends on your fleet size, the commodities you haul, your operating territory, and the requirements of your shippers and brokers. Many carriers carry $5,000,000 to $10,000,000 in total limits. Given the trend of increasing verdict sizes, consulting with a specialized trucking insurance advisor to evaluate your specific exposure is strongly recommended.',
-      },
-      {
-        q: 'Can I buy umbrella coverage without changing my underlying policies?',
-        a: 'Your umbrella insurer will typically require that your underlying policies meet certain minimum limits and are written by carriers they approve. You may not need to change your underlying policies, but the umbrella insurer may require adjustments to ensure there are no gaps between your primary and excess coverage layers.',
-      },
-      {
-        q: 'What are nuclear verdicts and why should trucking companies be concerned?',
-        a: 'Nuclear verdicts are jury awards that significantly exceed the expected value of a claim, often reaching tens of millions of dollars. The trucking industry has been disproportionately affected by this trend due to the severity of accidents involving commercial vehicles. These verdicts make adequate umbrella or excess liability coverage essential for the financial survival of any trucking operation.',
-      },
+      { q: 'How much umbrella coverage does a security company need?', a: 'Most security companies should carry a minimum of $5,000,000. Companies providing armed services, executive protection, or large venue security should consider $10,000,000 or more.' },
+      { q: 'What is the difference between umbrella and excess liability?', a: 'An umbrella provides additional limits and may broaden coverage. An excess policy strictly follows the underlying terms. For security companies, umbrella is generally preferred.' },
+      { q: 'Does the umbrella cover armed guard incidents?', a: 'The umbrella provides additional limits above your underlying policies. Ensuring those underlying policies properly address armed operations is essential.' },
     ],
-    relatedCoverages: ['auto-liability', 'general-liability', 'workers-compensation'],
+    relatedCoverages: ['general-liability', 'professional-liability', 'firearms-liability'],
   },
-
   {
-    slug: 'occupational-accident',
-    title: 'Occupational Accident',
-    metaTitle: 'Occupational Accident Insurance for Trucking',
-    metaDescription: 'Occupational accident insurance for independent contractor truck drivers. Medical, disability, and death benefits without requiring workers compensation cove...',
-    heroHeading: 'Occupational Accident Insurance',
-    heroSubheading:
-      'Medical, disability, and accidental death coverage designed specifically for independent contractor drivers.',
-    overview:
-      "Occupational accident insurance provides injury and death benefits to independent contractor drivers who are not eligible for workers' compensation coverage. Since independent contractors are not employees, they fall outside the scope of state workers' comp laws. Occupational accident policies fill this protection gap, offering medical expense coverage, disability income benefits, and accidental death and dismemberment benefits to contractors who are injured while performing their work.",
+    slug: 'employment-practices',
+    title: 'Employment Practices Liability',
+    metaTitle: 'Employment Practices Liability Insurance for Security Companies',
+    metaDescription: 'EPLI for security guard companies. Covers wrongful termination, discrimination, harassment, and wage disputes from security guard employees.',
+    heroHeading: 'Employment Practices Liability for Security Companies',
+    heroSubheading: 'Protection against guard disputes, wrongful termination claims, discrimination allegations, and harassment lawsuits.',
+    overview: 'Employment practices liability insurance protects security companies against claims made by employees alleging wrongful employment actions. The security industry\'s high turnover rates and demanding conditions make security companies particularly susceptible to EPLI claims.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          "Occupational accident insurance provides three core benefit categories. Medical expense coverage pays for treatment of injuries sustained while performing work as an independent contractor, including hospitalization, surgery, physician visits, diagnostic imaging, and prescription medications. Benefit limits typically range from $500,000 to $1,000,000 per occurrence.\n\nDisability income benefits replace a portion of the contractor's earnings during recovery from a covered injury. Policies typically offer both temporary total disability benefits, payable while the contractor is completely unable to work, and permanent total disability benefits for catastrophic injuries that permanently prevent the contractor from driving. Benefit amounts and durations vary by policy.\n\nAccidental death and dismemberment coverage provides a lump-sum payment to the contractor's beneficiaries in the event of death or the loss of limbs, sight, or hearing due to a covered accident. AD&D benefits typically range from $100,000 to $500,000 and are payable in addition to any other coverage the contractor may carry.",
+        content: 'EPLI covers claims from wrongful termination, discrimination, sexual harassment, retaliation, and wage and hour disputes. These are common in the security industry where turnover exceeds 100 percent annually at many companies.\n\nWage and hour disputes, including unpaid overtime and misclassification of employees, have become increasingly common in the security industry.',
       },
       {
-        heading: 'Who Needs It',
-        content:
-          "Motor carriers that use independent contractor drivers should offer or require occupational accident coverage as part of their contractor agreements. While carriers are not legally required to provide workers' compensation to legitimate independent contractors, an uninsured contractor injury can generate significant legal exposure if the contractor's classification is challenged.\n\nIndependent owner-operators who work under a lease agreement with a carrier should carry occupational accident coverage whether the carrier provides it or not. Without either workers' comp or occupational accident insurance, a serious injury leaves the contractor with no income and potentially enormous medical bills. Personal health insurance may cover some medical costs but does not provide disability income or death benefits.",
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          "Independent contractor drivers face the same occupational hazards as employee drivers, including traffic accidents, loading dock injuries, and slips and falls, but without the safety net of workers' compensation. A contractor who is seriously injured and unable to drive may have no source of income and inadequate medical coverage to handle the treatment costs.\n\nFor motor carriers, providing occupational accident insurance to contractors serves multiple purposes. It helps attract and retain quality contractors, demonstrates a commitment to contractor welfare, and provides an additional layer of legal protection. If a contractor is injured and later claims to have been misclassified as an employee, the existence of an occupational accident program can help demonstrate the independent nature of the relationship while also ensuring the contractor had meaningful coverage regardless of classification status.",
+        heading: 'Why Security Companies Face Higher EPLI Risk',
+        content: 'High employee turnover creates a large pool of potential claimants. Scheduling decisions and post assignments can appear discriminatory. Physical fitness requirements, uniform standards, and weapons qualifications add additional exposure layers.\n\nSecurity work involves supervisory structures that can generate claims if employees perceive assignment patterns as biased.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Medical expense benefits for work-related injuries, typically up to $1,000,000',
-          'Temporary total disability income replacement during recovery',
-          'Permanent total disability benefits for career-ending injuries',
-          'Accidental death and dismemberment lump-sum payments',
-          'Passenger accident coverage for authorized riders',
-          'Coverage for injuries occurring during work-related activities',
-          'Available as carrier-sponsored group plans or individual policies',
-          'Contingent liability coverage to protect the carrier against contractor injury claims',
+          'Wrongful termination defense and settlement costs',
+          'Discrimination claims based on protected characteristics',
+          'Sexual harassment allegations by employees or third parties',
+          'Retaliation claims following complaints or whistleblowing',
+          'Wage and hour dispute coverage',
+          'Defense costs for EEOC charges and state agency investigations',
+          'Claims by prospective employees alleging discriminatory hiring',
         ],
       },
     ],
     faqs: [
+      { q: 'Why do security companies have high EPLI claim rates?', a: 'High turnover, large workforces, demanding conditions, and frequent hiring and termination decisions all contribute to elevated EPLI exposure.' },
+      { q: 'Does EPLI cover wage and hour lawsuits?', a: 'Many EPLI policies include wage and hour coverage, but some require a separate endorsement. We recommend confirming your policy explicitly includes this coverage.' },
+      { q: 'Are claims by contract security guards covered?', a: 'EPLI typically covers employees, former employees, and applicants. Whether independent contractors are covered depends on the specific policy language.' },
+    ],
+    relatedCoverages: ['workers-compensation', 'general-liability', 'professional-liability'],
+  },
+  {
+    slug: 'assault-battery',
+    title: 'Assault & Battery Liability',
+    metaTitle: 'Assault and Battery Insurance for Security Guard Companies',
+    metaDescription: 'Assault and battery liability insurance for security companies. Covers use of force incidents, restraint claims, and confrontation liability for guards.',
+    heroHeading: 'Assault & Battery Insurance for Security Companies',
+    heroSubheading: 'Specialized coverage for use-of-force incidents, physical restraint claims, and confrontation liability in security operations.',
+    overview: 'Assault and battery liability insurance covers physical confrontations involving your security guards. This fills a critical gap that general liability policies often exclude, protecting your company when guards need to physically intervene, restrain individuals, or use force to protect people and property.',
+    sections: [
       {
-        q: "How is occupational accident insurance different from workers' compensation?",
-        a: "Workers' compensation is a state-mandated program that covers employees and provides guaranteed benefits set by state law. Occupational accident insurance is a private insurance product for independent contractors with benefits defined by the policy terms. Workers' comp provides broader protections including vocational rehabilitation and no-fault coverage, while occupational accident policies are more limited but serve contractors who are ineligible for workers' comp.",
+        heading: 'What It Covers',
+        content: 'Assault and battery insurance covers claims from physical confrontations involving your guards. This includes excessive force allegations, injuries during altercations, and wrongful detention claims.\n\nThe coverage applies whether the guard\'s actions were authorized or unauthorized. Defense costs are a significant component, as even justified use-of-force cases can cost $50,000 or more in legal fees.',
       },
       {
-        q: 'Can a motor carrier require independent contractors to carry occupational accident insurance?',
-        a: 'Yes. Many carriers require their independent contractors to maintain occupational accident coverage as a condition of their lease agreement. Some carriers sponsor group occupational accident programs that contractors can participate in, often at lower rates than individual policies.',
+        heading: 'Why This Coverage Is Essential',
+        content: 'Physical confrontations are inherent in security work. General liability policies typically exclude assault and battery as intentional acts, creating a dangerous coverage gap.\n\nSmartphone video and body camera footage has increased the frequency of use-of-force claims against security guards. Incidents that once went unreported now generate lawsuits and public scrutiny.',
       },
       {
-        q: 'Does occupational accident insurance cover illnesses like heart attacks or strokes?',
-        a: 'Occupational accident insurance typically covers accidental injuries only, not illnesses. A heart attack or stroke that occurs while driving would generally not be covered unless it was directly caused by a covered accident. Some policies offer limited coverage for occupational diseases, but this is not standard.',
-      },
-      {
-        q: 'What happens if an independent contractor is reclassified as an employee after an injury?',
-        a: "If a contractor is reclassified as an employee by a state agency or court, the carrier may be liable for workers' compensation benefits and penalties for failure to carry coverage. Having an occupational accident program in place does not eliminate this risk, but it ensures the contractor received medical and disability benefits and can demonstrate the carrier acted in good faith.",
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Coverage for excessive force and unreasonable restraint claims',
+          'Wrongful detention and false imprisonment allegations',
+          'Defense costs for justified and unjustified use-of-force incidents',
+          'Guard actions that general liability excludes as intentional acts',
+          'Third-party bodily injury from confrontations at client sites',
+          'Bystander injuries during security interventions',
+          'Incidents at bars, nightclubs, events, and high-risk venues',
+        ],
       },
     ],
-    relatedCoverages: ['workers-compensation', 'non-trucking-liability', 'auto-liability'],
+    faqs: [
+      { q: 'Why doesn\'t general liability cover assault and battery claims?', a: 'General liability covers accidental occurrences, not intentional acts. When a guard physically restrains or strikes someone, insurers classify this as intentional. Assault and battery coverage is specifically designed for these incidents.' },
+      { q: 'Does assault and battery insurance cover people my guards restrained?', a: 'Yes. If a guard detains, restrains, or uses physical force against any individual and that person files a claim, the policy covers defense costs and resulting damages.' },
+      { q: 'How much coverage should my security company carry?', a: 'Companies at high-risk venues should carry $1,000,000 or more per occurrence. Companies providing corporate or residential security may find lower limits adequate.' },
+    ],
+    relatedCoverages: ['general-liability', 'firearms-liability', 'workers-compensation'],
+  },
+  {
+    slug: 'firearms-liability',
+    title: 'Firearms Liability',
+    metaTitle: 'Firearms Liability Insurance for Armed Security Companies',
+    metaDescription: 'Firearms liability insurance for armed security guard companies. Covers accidental discharge, weapons training liability, and armed guard operations.',
+    heroHeading: 'Firearms Liability Insurance for Armed Security',
+    heroSubheading: 'Specialized coverage for armed guard operations, accidental discharge incidents, weapons training liability, and use-of-deadly-force claims.',
+    overview: 'Firearms liability insurance covers claims arising from the use, handling, storage, and training of firearms by your security officers. Standard general liability policies typically exclude these exposures, making this coverage essential for any armed security company.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content: 'Firearms liability covers bodily injury and property damage from firearms use during duty. This includes accidental discharge, intentional use in response to threats, and training-related injuries.\n\nClaims related to improper storage or handling are also covered. Defense costs for firearms-related claims, which can be extraordinarily high, are included.',
+      },
+      {
+        heading: 'Regulatory and Licensing Considerations',
+        content: 'Armed security companies face complex state regulations. California\'s BSIS requires a separate firearms permit with annual qualification. Texas DPS oversees armed guard licensing. New York\'s DCJS has its own requirements.\n\nMost firearms liability policies require all armed guards to maintain current permits. Claims involving guards with expired permits may be denied. Maintaining rigorous training documentation is essential.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Accidental discharge liability for injuries and property damage',
+          'Intentional use of deadly force during duty',
+          'Firearms training and qualification range liability',
+          'Improper storage or handling claims',
+          'Defense costs for criminal and civil proceedings',
+          'Coverage for all guard-carried weapons including less-lethal devices',
+          'Wrongful death claims from armed security incidents',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Does firearms liability cover intentional shootings by guards?', a: 'Yes. It covers the use of a firearm during duty, including intentional use in response to a threat. Defense costs and damage payments are provided regardless of whether the shooting is later deemed justified.' },
+      { q: 'What states require firearms liability for armed guards?', a: 'Requirements vary by state. Even where not legally required, virtually all clients contracting for armed security require proof of firearms liability coverage.' },
+      { q: 'Does the policy cover training range accidents?', a: 'Yes. Injuries during company-operated firearms training, qualification, and recertification are covered.' },
+    ],
+    relatedCoverages: ['assault-battery', 'general-liability', 'umbrella-excess'],
   },
 ];
 
-/**
- * Retrieve a single coverage object by its URL slug.
- * @param {string} slug - The URL-safe slug for the coverage type.
- * @returns {object|undefined} The matching coverage object, or undefined if not found.
- */
 export function getCoverageBySlug(slug) {
   return coverages.find((c) => c.slug === slug);
 }

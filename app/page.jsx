@@ -1,12 +1,12 @@
 import HomeContent from './HomeContent';
 
 export const metadata = {
-  title: 'Commercial Trucking Insurance Solutions',
-  description: 'ALKEME Insurance Services provides specialized trucking insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  title: 'Security Guard Insurance Solutions',
+  description: 'ALKEME Insurance Services provides specialized security guard insurance for armed and unarmed guard companies, executive protection, event security, and patrol services. Coverage for general liability, professional liability, firearms liability, and more.',
   openGraph: {
-    title: 'Trucking Insurance | ALKEME Insurance Services',
-    description: 'Specialized trucking insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    url: 'https://alkemeins.com/trucking/',
+    title: 'Security Guard Insurance | ALKEME Insurance Services',
+    description: 'Specialized security guard insurance for armed and unarmed guard companies, executive protection, event security, and patrol services across all 50 states.',
+    url: 'https://alkemeins.com/security/',
   },
 };
 
@@ -26,28 +26,16 @@ export default function HomePage() {
             url: 'https://alkemeins.com',
             telephone: '+18559255363',
             email: 'info@alkemeins.com',
-            description: 'ALKEME Insurance Services provides specialized commercial trucking insurance solutions for owner-operators, fleets, and transportation businesses across all 50 states.',
+            description: 'ALKEME Insurance Services provides specialized security guard insurance solutions for armed and unarmed guard companies, executive protection firms, event security providers, and patrol services across all 50 states.',
             areaServed: { '@type': 'Country', name: 'United States' },
-            parentOrganization: {
-              '@type': 'Organization',
-              name: 'ALKEME Insurance Services',
-              url: 'https://alkemeins.com',
-            },
+            parentOrganization: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
             foundingDate: '2003',
             numberOfEmployees: { '@type': 'QuantitativeValue', value: 100 },
-            knowsAbout: ['Commercial Trucking Insurance', 'Fleet Insurance', 'Motor Truck Cargo', 'FMCSA Compliance'],
+            knowsAbout: ['Security Guard Insurance', 'Armed Guard Insurance', 'Professional Liability', 'Firearms Liability'],
             hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'Licensed Insurance Brokerage' },
-            serviceType: [
-              'Commercial Trucking Insurance',
-              'Fleet Insurance',
-              'Owner-Operator Insurance',
-              'Motor Truck Cargo Insurance',
-              'Commercial Auto Liability',
-              'Physical Damage Coverage',
-              'Transportation Insurance',
-            ],
+            serviceType: ['Security Guard Insurance', 'Armed Guard Insurance', 'Executive Protection Insurance', 'Event Security Insurance', 'Patrol Service Insurance', 'General Liability', 'Professional Liability'],
             citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
-            about: { '@type': 'Thing', name: 'Commercial Trucking Insurance' },
+            about: { '@type': 'Thing', name: 'Security Guard Insurance' },
           }),
         }}
       />
@@ -58,54 +46,12 @@ export default function HomePage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              {
-                '@type': 'Question',
-                name: 'What insurance does a trucking company need?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do you insure both owner-operators and fleets?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can you help with contract and compliance requirements?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'How quickly can I get a quote?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large fleets, the process may take slightly longer to ensure we explore the best options across our carrier network.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do you offer cargo and physical damage coverage?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can coverage be customized for my operation?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.',
-                },
-              },
+              { '@type': 'Question', name: 'What insurance does a security guard company need?', acceptedAnswer: { '@type': 'Answer', text: 'At minimum, most security guard companies need general liability, professional liability, and workers\u0027 compensation. Armed guard companies also need firearms liability and assault and battery coverage. We help you identify exactly what your operation requires based on your services, client contracts, and state licensing requirements.' } },
+              { '@type': 'Question', name: 'Do you insure both armed and unarmed security companies?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We work with unarmed guard companies, armed security firms, executive protection agencies, event security providers, patrol services, alarm monitoring companies, and private investigation firms. Our coverage programs are tailored to the specific risk profile of each operation.' } },
+              { '@type': 'Question', name: 'Can you help with contract insurance requirements?', acceptedAnswer: { '@type': 'Answer', text: 'Absolutely. We understand the insurance requirements that clients, property managers, and venues impose on security contractors. We help ensure your certificates of insurance, additional insured endorsements, and policy limits align with your contractual obligations.' } },
+              { '@type': 'Question', name: 'How quickly can I get a quote?', acceptedAnswer: { '@type': 'Answer', text: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large operations, the process may take slightly longer to ensure we explore the best options across our company network.' } },
+              { '@type': 'Question', name: 'Do you offer assault and battery coverage?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Assault and battery insurance is one of the most critical coverages for security companies, filling the gap that general liability policies leave when physical confrontations occur. We include this coverage in most security company programs.' } },
+              { '@type': 'Question', name: 'Can coverage be customized for my operation?', acceptedAnswer: { '@type': 'Answer', text: 'Every policy we place is built around your specific operation. We consider your services, guard count, client types, state licensing requirements, and risk profile to design a program that provides the right coverage at a competitive price.' } },
             ],
           }),
         }}
@@ -116,7 +62,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Commercial Trucking Insurance Solutions',
+            headline: 'Security Guard Insurance Solutions',
             datePublished: '2025-06-01',
             dateModified: '2026-04-01',
             author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },

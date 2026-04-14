@@ -2,8 +2,8 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const stats = [
-  { value: '20+', label: 'Years of Transportation Insurance Experience' },
-  { value: '1,000+', label: 'Trucking Clients Supported' },
+  { value: '20+', label: 'Years of Security Industry Insurance Experience' },
+  { value: '1,000+', label: 'Security Companies Supported' },
   { value: '50', label: 'States with Coverage Solutions' },
   { value: '24hr', label: 'Average Quote Turnaround' },
 ];
@@ -17,12 +17,8 @@ export default function Stats() {
         <div ref={ref} className="grid grid-cols-2 lg:grid-cols-4 gap-6 stagger-children">
           {stats.map((stat) => (
             <div key={stat.label} className="border-2 border-ash rounded-[2rem] p-8 text-center">
-              <div className="text-brand font-extrabold tracking-tight mb-2" style={{ fontSize: 'clamp(2.5rem, 5vw, 3.5rem)', lineHeight: '1.25' }}>
-                {stat.value}
-              </div>
-              <div className="text-brand/70 font-medium" style={{ fontSize: '0.85rem', lineHeight: '1.4' }}>
-                {stat.label}
-              </div>
+              <div className="text-brand font-extrabold tracking-tight mb-2" style={{ fontSize: 'clamp(2.5rem, 5vw, 3.5rem)', lineHeight: '1.25' }}>{stat.value}</div>
+              <div className="text-brand/70 font-medium" style={{ fontSize: '0.85rem', lineHeight: '1.4' }}>{stat.label}</div>
             </div>
           ))}
         </div>
