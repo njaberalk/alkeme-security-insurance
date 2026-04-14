@@ -14,7 +14,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1920&q=80"
+          src="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1920&q=80"
           alt="Security guard professional protecting a commercial building for security guard insurance"
           width={1920}
           height={1080}
