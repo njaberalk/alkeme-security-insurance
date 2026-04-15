@@ -2,9 +2,9 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const cards = [
-  { title: 'Security Industry Expertise', description: 'Deep understanding of the risks facing security guard companies. Our specialists know guard licensing, use-of-force liability, and the coverage requirements unique to the private security industry.', image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80' },
-  { title: 'Tailored Coverage Strategies', description: 'No two security companies are the same. We design coverage programs that align with your service types, guard count, client contracts, and risk profile — not a one-size-fits-all policy.', image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80' },
-  { title: 'Responsive Service & Claims Support', description: 'When an incident occurs, every hour matters. Our team provides direct access to experienced claims advocates who understand security-specific challenges and move quickly on your behalf.', image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=600&q=80' },
+  { title: 'Security Industry Expertise', description: 'Deep understanding of the risks facing security guard companies. Our specialists know guard licensing, use-of-force liability, and the coverage requirements unique to the private security industry.', image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80' },
+  { title: 'Tailored Coverage Strategies', description: 'No two security companies are the same. We design coverage programs that align with your service types, guard count, client contracts, and risk profile — not a one-size-fits-all policy.', image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=600&q=80' },
+  { title: 'Responsive Service & Claims Support', description: 'When an incident occurs, every hour matters. Our team provides direct access to experienced claims advocates who understand security-specific challenges and move quickly on your behalf.', image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80' },
 ];
 
 export default function ValueProposition() {
