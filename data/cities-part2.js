@@ -403,7 +403,7 @@ export const citiesPart2 = [
           "Cross-border liability coverage for US-Mexico freight operations",
           "Customs bond insurance for bonded company operations",
           "Refrigerated security services and spoilage coverage for produce imports",
-          "Bobtail coverage for empty returns from cross-border relay points",
+          "Patrol vehicle coverage for guard response operations",
           "Bilingual policy documentation for cross-border company operations"
         ]
       }

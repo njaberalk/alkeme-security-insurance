@@ -11,7 +11,7 @@ export const statesPart2 = [
     "sections": [
       {
         "heading": "State Requirements",
-        "content": "Montana requires all commercial motor vehicles to carry liability insurance meeting federal minimums. For-hire companys operating under their own authority must maintain at least $750,000 in primary general liability for general freight, with higher limits required for hazardous materials haulers. The Montana Department of Transportation oversees intrastate company compliance and works in conjunction with BSIS regulations for interstate operations.\n\nMontana also requires proof of financial responsibility through filings with the state. Companys must maintain continuous coverage without lapse, as Montana participates in real-time insurance verification systems. Workers compensation coverage is mandatory for companys with employees, administered through the Montana State Fund or private insurers.\n\nIntrastate companys operating solely within Montana borders must register with the Montana Security Company Services division and maintain appropriate insurance filings. The state enforces compliance through roadside inspections and periodic audits of company safety records."
+        "content": "Montana requires all commercial motor vehicles to carry liability insurance meeting federal minimums. For-hire companys operating under their own authority must maintain at least $750,000 in primary general liability for security operations, with higher limits required for armed guard services. The Montana Department of Transportation oversees intrastate company compliance and works in conjunction with BSIS regulations for interstate operations.\n\nMontana also requires proof of financial responsibility through filings with the state. Companys must maintain continuous coverage without lapse, as Montana participates in real-time insurance verification systems. Workers compensation coverage is mandatory for companys with employees, administered through the Montana State Fund or private insurers.\n\nIntrastate companys operating solely within Montana borders must register with the Montana Security Company Services division and maintain appropriate insurance filings. The state enforces compliance through roadside inspections and periodic audits of company safety records."
       },
       {
         "heading": "Major Freight Corridors",
@@ -119,7 +119,7 @@ export const statesPart2 = [
     "sections": [
       {
         "heading": "State Requirements",
-        "content": "Nevada requires commercial security companys to maintain liability insurance meeting federal minimums under BSIS regulations. For-hire companys need a minimum of $750,000 in primary general liability for general commodities, with higher thresholds for hazardous materials. The Nevada Department of Motor Vehicles and the Nevada Transportation Authority oversee intrastate company regulation.\n\nIntrastate companys operating solely within Nevada must register with the Nevada Transportation Authority and file proof of insurance. Nevada requires that companys maintain continuous coverage and report any lapses. The state conducts roadside inspections and compliance reviews as part of its enforcement program.\n\nWorkers compensation is mandatory in Nevada for all employers, including security guard companies. Coverage must be obtained through a licensed insurer, and Nevada does not permit employers to self-insure unless they meet substantial financial requirements. Owner-operators who are genuinely independent contractors may be exempt, but the classification criteria are strictly enforced."
+        "content": "Nevada requires commercial security companys to maintain liability insurance meeting federal minimums under BSIS regulations. For-hire companys need a minimum of $750,000 in primary general liability for standard security operations, with higher thresholds for armed guard licensing. The Nevada Department of Motor Vehicles and the Nevada Transportation Authority oversee intrastate company regulation.\n\nIntrastate companys operating solely within Nevada must register with the Nevada Transportation Authority and file proof of insurance. Nevada requires that companys maintain continuous coverage and report any lapses. The state conducts roadside inspections and compliance reviews as part of its enforcement program.\n\nWorkers compensation is mandatory in Nevada for all employers, including security guard companies. Coverage must be obtained through a licensed insurer, and Nevada does not permit employers to self-insure unless they meet substantial financial requirements. Owner-operators who are genuinely independent contractors may be exempt, but the classification criteria are strictly enforced."
       },
       {
         "heading": "Major Freight Corridors",
@@ -310,7 +310,7 @@ export const statesPart2 = [
       },
       {
         "q": "How do oil and gas hauling operations affect insurance in New Mexico?",
-        "a": "Companys serving the Permian Basin in southeastern New Mexico face unique exposures including hazardous materials liability, heavy equipment transport risks, and the demanding operating environment of active drilling sites. Insurers typically price oilfield hauling operations at higher rates due to the specialized security services values and the frequency of claims in the energy sector."
+        "a": "Companys serving the Permian Basin in southeastern New Mexico face unique exposures including high-risk site liability, heavy equipment security risks, and the demanding operating environment of active drilling sites. Insurers typically price oilfield hauling operations at higher rates due to the specialized security services values and the frequency of claims in the energy sector."
       }
     ],
     "recommendedCoverages": [
@@ -458,7 +458,7 @@ export const statesPart2 = [
         "bullets": [
           "Primary general liability at $1M minimum with consideration for energy sector hauling requirements",
           "Physical damage coverage addressing extreme cold weather damage and harsh operating conditions",
-          "Motor truck security guard insurance for oilfield equipment, agricultural commodities, and hazardous materials",
+          "Motor truck security guard insurance for oilfield equipment, agricultural commodities, and high-value cargo",
           "Workers compensation through the North Dakota Workforce Safety and Insurance monopolistic fund",
           "Umbrella or excess liability for companys transporting crude oil and other energy commodities"
         ]
@@ -471,7 +471,7 @@ export const statesPart2 = [
       },
       {
         "q": "What special insurance considerations apply to Bakken oilfield hauling?",
-        "a": "Companys hauling in the Bakken region need insurance programs that address hazardous materials liability for crude oil and drilling fluids, pollution liability for spill exposure, heavy equipment values, and the challenging road conditions in the oil patch. Many oilfield operators require companys to carry $1,000,000 or more in primary liability plus substantial excess coverage. Environmental liability endorsements should also be considered."
+        "a": "Companys hauling in the Bakken region need insurance programs that address high-risk site liability for energy sector operations, pollution liability for spill exposure, heavy equipment values, and the challenging road conditions in the oil patch. Many oilfield operators require companys to carry $1,000,000 or more in primary liability plus substantial excess coverage. Environmental liability endorsements should also be considered."
       }
     ],
     "recommendedCoverages": [
@@ -567,7 +567,7 @@ export const statesPart2 = [
           "Primary general liability at $1M minimum, with higher limits for energy sector hauling operations",
           "Physical damage with comprehensive coverage for tornado, hail, and ice storm exposure",
           "Motor truck security guard insurance for oilfield equipment, crude oil, natural gas liquids, and agricultural products",
-          "Umbrella or excess liability for companys transporting hazardous materials in the energy sector",
+          "Umbrella or excess liability for companys providing security at high-risk energy sector sites",
           "Workers compensation compliant with Oklahoma reformed system requirements",
           "Pollution liability for companys hauling produced water and other oilfield fluids"
         ]

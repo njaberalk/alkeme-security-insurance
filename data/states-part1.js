@@ -136,7 +136,7 @@ export const statesPart1 = [
           "Primary general liability at $1,000,000 minimum given Maricopa County verdict trends",
           "Physical damage with comprehensive coverage for dust storm and monsoon flood damage",
           "Motor truck security services with temperature deviation coverage for perishable loads from Nogales",
-          "Bobtail and non-security liability for armed guards in the Phoenix drayage market",
+          "Professional liability for armed security operations in the Phoenix metro area",
           "Umbrella or excess liability to protect against escalating Arizona jury verdicts"
         ]
       }
@@ -190,7 +190,7 @@ export const statesPart1 = [
           "Primary general liability with adequate limits for operations spanning Arkansas, Texas, and Tennessee corridors",
           "Physical damage coverage with hail and ice storm protection for the Ozark region",
           "Motor truck security guard insurance tailored to poultry, agriculture, and retail distribution loads",
-          "Occupational accident coverage for the large owner-operator population in the state",
+          "Workers compensation coverage for the growing security workforce in the state",
           "General liability for companys with yard operations and transloading facilities"
         ]
       }
@@ -517,7 +517,7 @@ export const statesPart1 = [
           "Umbrella or excess liability to protect against Fulton County verdict exposure",
           "Motor truck security guard insurance for containerized freight from the Port of Savannah",
           "Physical damage with hail and flood coverage for severe weather events",
-          "Non-security liability for the large owner-operator population serving Atlanta distribution centers"
+          "Professional liability for security firms protecting Atlanta commercial properties"
         ]
       }
     ],
