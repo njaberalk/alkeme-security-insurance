@@ -2,6 +2,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import ScrollToTop from './ScrollToTop'
 import QuoteFormProvider from './QuoteFormProvider'
+import FloatingUI from '../components/FloatingUI'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -23,7 +24,7 @@ export const metadata = {
     siteName: 'ALKEME Insurance Services',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&h=630&q=80',
+        url: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&h=630&q=80',
         width: 1200,
         height: 630,
         alt: 'ALKEME Insurance Services — Security Guard Insurance',
@@ -34,7 +35,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Security Guard Insurance | ALKEME Insurance Services',
     description: 'Specialized security guard insurance for armed and unarmed guard companies, executive protection, event security, and patrol services across all 50 states.',
-    images: ['https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&h=630&q=80'],
+    images: ['https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&h=630&q=80'],
   },
   robots: {
     index: true,
@@ -58,9 +59,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+      </head>
       <body style={{ fontFamily: 'var(--font-poppins), Poppins, sans-serif' }}>
         <ScrollToTop />
         <QuoteFormProvider />
+        <FloatingUI />
         {children}
       </body>
     </html>

@@ -108,7 +108,7 @@ export default function BlogPageContent({ post }) {
             <div>
               <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Coverage</h3>
               <div className="space-y-2">
-                {['general-liability', 'professional-liability', 'general-liability', 'workers-compensation', 'umbrella-excess-liability'].map(slug => (
+                {['general-liability', 'professional-liability', 'workers-compensation', 'commercial-auto', 'security-operations-liability'].map(slug => (
                   <Link key={slug} href={`/coverage/${slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
                     {slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
                   </Link>
@@ -118,7 +118,7 @@ export default function BlogPageContent({ post }) {
             <div>
               <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Industries</h3>
               <div className="space-y-2">
-                {['armed guards', 'small-guard companys', 'large-guard companys', 'flatbed', 'hazmat'].map(slug => (
+                {['armed-guards', 'unarmed-security', 'executive-protection', 'event-security', 'campus-security'].map(slug => (
                   <Link key={slug} href={`/industries/${slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
                     {slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
                   </Link>
