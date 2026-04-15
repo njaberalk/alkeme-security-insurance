@@ -24,7 +24,7 @@ const industryLinks = [
   { label: 'Executive Protection', href: '/industries/executive-protection/' },
   { label: 'Event Security', href: '/industries/event-security/' },
   { label: 'Patrol Services', href: '/industries/patrol-services/' },
-  { label: 'Campus Security', href: '/industries/campus-security/' },
+  { label: 'Mobile Patrol', href: '/industries/mobile-patrol/' },
 ];
 
 const securityLinks = [

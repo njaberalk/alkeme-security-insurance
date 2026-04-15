@@ -11,8 +11,8 @@ const segments = [
   { name: 'Cannabis Security', slug: 'cannabis-security', desc: 'Dispensary and grow facility guards' },
   { name: 'Estate Security', slug: 'estate-security', desc: 'Residential and HOA guard services' },
   { name: 'Patrol Services', slug: 'patrol-services', desc: 'Mobile patrol and route security' },
-  { name: 'Alarm Monitoring', slug: 'alarm-monitoring', desc: 'Monitoring centers and alarm response' },
-  { name: 'Investigations', slug: 'investigations', desc: 'Private investigation and surveillance' },
+  { name: 'Mobile Patrol', slug: 'mobile-patrol', desc: 'Drive-by checks and alarm response' },
+  { name: 'Loss Prevention', slug: 'loss-prevention', desc: 'Retail security and theft prevention' },
 ];
 
 export default function WhoWeServe() {

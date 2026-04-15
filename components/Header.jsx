@@ -11,7 +11,7 @@ const coverageItems = [
   { label: 'Commercial Auto', href: '/coverage/commercial-auto/' },
   { label: 'Assault & Battery', href: '/coverage/assault-battery/' },
   { label: 'Firearms Liability', href: '/coverage/firearms-liability/' },
-  { label: 'Cyber Liability', href: '/coverage/cyber-liability/' },
+  { label: 'Surveillance & Data Liability', href: '/coverage/surveillance-data-liability/' },
   { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
   { label: 'Employment Practices', href: '/coverage/employment-practices/' },
 ];
@@ -41,8 +41,8 @@ const industryItems = [
   { label: 'Cannabis Security', href: '/industries/cannabis-security/' },
   { label: 'Estate Security', href: '/industries/estate-security/' },
   { label: 'Patrol Services', href: '/industries/patrol-services/' },
-  { label: 'Alarm Monitoring', href: '/industries/alarm-monitoring/' },
-  { label: 'Investigations', href: '/industries/investigations/' },
+  { label: 'Mobile Patrol', href: '/industries/mobile-patrol/' },
+  { label: 'Loss Prevention', href: '/industries/loss-prevention/' },
 ];
 
 function Dropdown({ label, items, isOpen, onToggle, onClose }) {

@@ -8,8 +8,8 @@ export function RelatedIndustries({ slugs, title = 'Industries That Need This Co
   const industryNames = {
     'armed-guards': 'Armed Guards', 'unarmed-security': 'Unarmed Security', 'executive-protection': 'Executive Protection',
     'event-security': 'Event Security', 'campus-security': 'Campus Security', 'cannabis-security': 'Cannabis Security',
-    'estate-security': 'Estate Security', 'patrol-services': 'Patrol Services', 'alarm-monitoring': 'Alarm Monitoring',
-    'investigations': 'Investigations',
+    'estate-security': 'Estate Security', 'patrol-services': 'Patrol Services', 'mobile-patrol': 'Mobile Patrol',
+    'loss-prevention': 'Loss Prevention',
   };
   return (
     <div ref={ref} className="bg-stone fade-in-view" style={{ padding: '5rem 0' }}>

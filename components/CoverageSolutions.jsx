@@ -9,10 +9,10 @@ const coverages = [
   { title: 'Commercial Auto', slug: 'commercial-auto', desc: 'Coverage for patrol vehicles, escort cars, mobile security units, and fleet operations.' },
   { title: 'Assault & Battery', slug: 'assault-battery', desc: 'Specialized coverage for use-of-force incidents, physical restraint claims, and confrontation liability.' },
   { title: 'Firearms Liability', slug: 'firearms-liability', desc: 'Armed guard coverage for accidental discharge, weapons training liability, and use-of-deadly-force claims.' },
-  { title: 'Cyber Liability', slug: 'cyber-liability', desc: 'Protection against surveillance data breaches, access control compromises, and client data exposure.' },
+  { title: 'Surveillance & Data Liability', slug: 'surveillance-data-liability', desc: 'Protection against CCTV footage exposure, access control data breaches, and biometric data violations.' },
   { title: 'Umbrella / Excess', slug: 'umbrella-excess', desc: 'Additional liability limits for catastrophic claims, meeting high-limit contract requirements.' },
   { title: 'Employment Practices', slug: 'employment-practices', desc: 'Guard disputes, wrongful termination, discrimination, harassment, and wage claims coverage.' },
-  { title: 'Commercial Property', slug: 'commercial-property', desc: 'Office space, monitoring centers, guard stations, surveillance equipment, and business assets.' },
+  { title: 'Security Operations Liability', slug: 'security-operations-liability', desc: 'Missed patrol rounds, guard no-shows, shift handoff failures, and operations breakdown claims.' },
 ];
 
 export default function CoverageSolutions() {
