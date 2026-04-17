@@ -1,0 +1,6 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/", "destination": "/security/", "permanent": false }
+  ]
+}

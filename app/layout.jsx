@@ -14,10 +14,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://alkemeins.com/security'),
   title: {
-    template: '%s | ALKEME Insurance Services',
-    default: 'Security Guard Insurance | ALKEME Insurance Services',
+    template: '%s | ALKEME',
+    default: 'Security Guard Insurance | ALKEME',
   },
-  description: 'ALKEME Insurance Services provides specialized security guard insurance for armed and unarmed guard companies, executive protection, event security, and patrol services. Coverage for general liability, professional liability, firearms liability, and more.',
+  description: 'Specialized security guard insurance from ALKEME for armed/unarmed guards, executive protection, and event security — GL, firearms liability, and more.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Security Guard Insurance | ALKEME Insurance Services',
+    title: 'Security Guard Insurance | ALKEME',
     description: 'Specialized security guard insurance for armed and unarmed guard companies, executive protection, event security, and patrol services across all 50 states.',
     images: ['https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1200&h=630&q=80'],
   },
